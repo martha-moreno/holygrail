@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Holy Grail</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- superagent for  http calls -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.3/superagent.min.js"></script>    
+
+    <!-- don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+
+
+      <span id="root"></span>
+
+
+    <!-- we will put our teact component inside this div -->
+    
+
+    <!-- load react -->
+    <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- load our react component. -->
+    <script src="header.js" defer type="text/babel"></script>    
+    <script src="left.js" defer type="text/babel"></script>
+    <script src="article.js" defer type="text/babel"></script>
+    <script src="right.js" defer type="text/babel"></script>
+    <script src="footer.js" defer type="text/babel"></script>    
+    <script src="index.js" defer type="text/babel"></script>
+
+
+  </body>
+</html>
